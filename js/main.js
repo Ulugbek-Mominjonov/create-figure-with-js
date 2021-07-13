@@ -14,7 +14,16 @@ window.addEventListener('DOMContentLoaded', () => {
     figure.style.backgroundColor = color;
   }
 
-  
+  let inputs = document.querySelectorAll('input');
+  inputs.forEach(input => {
+    input.addEventListener('change', () => {
+      if(input.value < 0){
+        input.value = 0;
+      }
+    })
+  })
+
+
   createBtn.addEventListener('click', () => {
     addStyle(width.value, height.value, borderRadius.value, color.value);
 
