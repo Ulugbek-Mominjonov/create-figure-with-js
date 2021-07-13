@@ -1,0 +1,19 @@
+form{
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.input-wrapper{
+  display: inline-block;
+  width: 34%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+}
+.creater-btn{
+  display: block;
+  width: 10%;
+  margin-left: auto;
+}
+.figure{
+  display: block;
+  margin-left: calc(50% - 250px);
+}
