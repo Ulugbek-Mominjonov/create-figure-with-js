@@ -13,22 +13,41 @@
     <form action="" class="w-60 mx-auto">
       <div class="input-wrapper">
         <label for="width" class="form-label">Width</label>
-        <input type="text" class="form-control" id="width">
+        <input type="number" class="form-control" id="width" value="0">
       </div>
 
       <div class="input-wrapper">
         <label for="height" class="form-label">Height</label>
-        <input type="text" class="form-control" id="height">
+        <input type="number" class="form-control" id="height" value="0">
       </div>
 
       <div class="input-wrapper">
         <label for="radius" class="form-label">Radius</label>
-        <input type="text" class="form-control" id="radius">
+        <input type="number" class="form-control" id="radius" value="0">
       </div>
 
       <div class="input-wrapper">
         <label for="color" class="form-label">Color</label>
-        <input type="text" class="form-control" id="color">
+        <select class="form-select" id="color" name="color">
+          <option value="inherit" selected>По умолчанию</option>
+          <option value="black">Чёрный</option>
+          <option value="white">Белый</option>
+          <option value="ghostwhite">Светло-серый</option>
+          <option value="pink">Розовый</option>
+          <option value="darkred">Тёмно-красный</option>
+          <option value="darkorange">Оранжевый</option>
+          <option value="saddlebrown">Коричневый</option>
+          <option value="gold">Золотой</option>
+          <option value="greenyellow">Салатовый</option>
+          <option value="forestgreen">Зелёный</option>
+          <option value="aquamarine">Аквамарин</option>
+          <option value="lightskyblue">Небесно-голубой</option>
+          <option value="lightsteelblue">Серо-голубой</option>
+          <option value="darkblue">Тёмно-синий</option>
+          <option value="indigo">Индиго</option>
+          <option value="mediumpurple">Фиолетовый</option>
+          <option value="purple">Пурпурный</option>
+        </select>
       </div>
 
       <button class="creater-btn btn btn-dark" type="button">Ok</button>

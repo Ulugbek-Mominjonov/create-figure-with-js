@@ -14,6 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
     figure.style.backgroundColor = color;
   }
 
+  
   createBtn.addEventListener('click', () => {
     addStyle(width.value, height.value, borderRadius.value, color.value);
 
